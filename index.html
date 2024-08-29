@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My_Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./images/favIcon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ----For toggle theme button ---- -->
+    <input type="checkbox" id="toggle-btn" />
+    <label for="toggle-btn" class="toggle-label"></label>
+    <!-- ----main section starts here---- -->
+    <main id="main">
+      <div class="opacity"></div>
+      <header>
+        <hr class="hr1" />
+        <img class="logo" src="./images/logo1.png" alt="logo" />
+        <img class="Llogo" src="./images/lightlogo1.png" alt="logo" />
+        <nav id="nav">
+          <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#skillSection">Skill</a></li>
+            <li><a href="#certsSection">Certificates</a></li>
+            <li><a href="#projectSection">Projects</a></li>
+            <li><a href="#contactSection">Contact</a></li>
+          </ul>
+          <i class="fa-solid fa-bars"></i>
+        </nav>
+      </header>
+      <article class="infoSection">
+        <div class="desc">
+          <h1 id="name">Naim Haider</h1>
+          <h3>Full Stack Developer</h3>
+          <p>
+            I am a passionate full stack developer with a knack for crafting
+            robust and scalable web applications. I have honed my skills in
+            front-end technologies like React and Next.js, as well as back-end
+            technologies like Node.js, and MongoDB. My goal is to leverage my
+            expertise to create innovative solutions that drive business growth
+            and deliver exceptional user experiences.
+          </p>
+        </div>
+        <div class="profileImg">
+          <img src="./images/profile.jpg" alt="profile-pic" />
+        </div>
+      </article>
+      <div class="cvLink">
+        <a href="./cv/Naim'sCV.pdf" download>
+          <button type="button" class="cv-btn">Download CV</button></a
+        >
+        <div class="footericons mainLinks">
+          <a
+            href="https://www.linkedin.com/in/naim-haider-6825ba248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://www.facebook.com/naim.haider.779?mibextid=ZbWKwL">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/naim.haider.779?igsh=OGQ5ZDc2ODk2ZA=="
+          >
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+          <a href="https://x.com/Naim23778831">
+            <i class="fa-brands fa-square-x-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </main>
+    <!-- ----main section ends here---- -->
+
+    <!-- ----Rest sections starts here---- -->
+    <div class="background">
+      <!-- ----aboutme section starts here---- -->
+      <section id="aboutme" class="animate">
+        <div id="aboutmeProfile">
+          <img
+            src="./images/profile1.jpg"
+            class="profile profile1"
+            alt="img1"
+          />
+          <img
+            src="./images/profile2.jpg"
+            class="profile profile2"
+            alt="img2"
+          />
+          <img
+            src="./images/profile3.jpg"
+            class="profile profile3"
+            alt="img3"
+          />
+        </div>
+        <div id="aboutmeDesc">
+          <h2>About<span>Me</span></h2>
+          <p>
+            I am a dedicated and versatile full stack developer with a passion
+            for creating efficient and user-friendly web applications. I have
+            knowledge of variety of technologies, including React, Next.js,
+            Node.js and MongoDB. My journey in web development began with a deep
+            curiosity for how things work, and it has evolved into a career
+            where I continuously strive to learn and adapt to new challenges.
+            Outside of coding, I enjoy staying active, exploring new
+            technologies, and contributing to open-source projects.
+          </p>
+          <button>ReadMore</button>
+        </div>
+      </section>
+      <!-- ----aboutme section ends here---- -->
+
+      <hr />
+
+      <!-- ----skill section starts here---- -->
+      <section id="skillSection" class="animate">
+        <h1>My<span>Skills</span></h1>
+        <div class="allSkills">
+          <div class="twoCircles">
+            <div class="circle1">
+              <div class="progress1">
+                <span class="progressValue1 pValue">88%</span>
+              </div>
+              <span class="skillText">Creativity</span>
+            </div>
+            <div class="circle2">
+              <div class="progress2">
+                <span class="progressValue2 pValue">90%</span>
+              </div>
+              <span class="skillText">Team Work</span>
+            </div>
+          </div>
+          <div class="progressbar">
+            <div class="html">
+              <p>HTML</p>
+              <span>90%</span>
+              <div class="progress">
+                <div class="progress-value htmlP"></div>
+              </div>
+            </div>
+            <div class="css">
+              <p>CSS</p>
+              <span>85%</span>
+              <div class="progress">
+                <div class="progress-value cssP"></div>
+              </div>
+            </div>
+            <div class="js">
+              <p>JavaScript</p>
+              <span>70%</span>
+              <div class="progress">
+                <div class="progress-value jsP"></div>
+              </div>
+            </div>
+            <div class="react">
+              <p>React</p>
+              <span>75%</span>
+              <div class="progress">
+                <div class="progress-value reactP"></div>
+              </div>
+            </div>
+            <div class="nodejs">
+              <p>NodeJs</p>
+              <span>65%</span>
+              <div class="progress">
+                <div class="progress-value nodejsP"></div>
+              </div>
+            </div>
+            <div class="mongodb">
+              <p>MongoDB</p>
+              <span>60%</span>
+              <div class="progress">
+                <div class="progress-value mongodbP"></div>
+              </div>
+            </div>
+            <div class="nextjs">
+              <p>NextJs</p>
+              <span>68%</span>
+              <div class="progress">
+                <div class="progress-value nextjsP"></div>
+              </div>
+            </div>
+          </div>
+          <div class="twoCircles">
+            <div class="circle3">
+              <div class="progress3">
+                <span class="progressValue3 pValue">75%</span>
+              </div>
+              <span class="skillText">Communication</span>
+            </div>
+            <div class="circle4">
+              <div class="progress4">
+                <span class="progressValue4 pValue">70%</span>
+              </div>
+              <span class="skillText">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ----skill section ends here---- -->
+
+      <hr />
+
+      <!-- ----certificates section starts here---- -->
+
+      <section id="certsSection" class="animate">
+        <h2>Certificates</h2>
+        <div class="allCerts">
+          <div class="cert cert1">
+            <div class="certIcon">
+              <i class="fa-solid fa-code"></i>
+
+              <h3>Full Stack Development: Let's begin course</h3>
+            </div>
+            <p>
+              The course consisted of Introduction to Full Stack Development,
+              and Getting Started with Visual Studio Code mudules.In this couse
+              I scored 88% marks in the final assessment.
+            </p>
+            <a
+              href="https://trainings.internshala.com/s/v/3398435/8e2467b6"
+              target="_blank"
+              ><button>Open</button></a
+            >
+          </div>
+          <div class="cert cert2">
+            <div class="certIcon">
+              <i class="fa-brands fa-js"></i>
+              <h3>JavaScript</h3>
+            </div>
+            <p>
+              This certification showcases my proficiency in JavaScript, a
+              fundamental programming language for web development. I have
+              gained expertise in core concepts like functions, objects, DOM
+              manipulation, and asynchronous programming.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1jAQHNAQkCSnnSfKxwdWIblyFo6WjCKWr/view"
+              target="_blank"
+              ><button>Open</button></a
+            >
+          </div>
+          <div class="cert cert3">
+            <div class="certIcon">
+              <i class="fa-brands fa-react"></i>
+              <h3>React</h3>
+            </div>
+            <p>
+              This certification highlights my skills in using React, a powerful
+              JavaScript library for building user interfaces. I have mastered
+              key concepts such as components, state management, hooks, and the
+              React lifecycle.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1kkBJlTug_K8gSuPeOD85Qez1s7-xSAIp/view"
+              target="_blank"
+              ><button>Open</button></a
+            >
+          </div>
+          <div class="cert cert4">
+            <div class="certIcon">
+              <i class="fa-solid fa-laptop-code"></i>
+              <h3>Master Course in Full Stack Development</h3>
+            </div>
+            <p>
+              This program equipped me with the skills to build both front-end
+              and back-end applications, covering essential technologies like
+              HTML, CSS, JavaScript, Node.js, Express, and databases like
+              MongoDB. I gained hands-on experience in developing dynamic web
+              applications.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1AHAtT8JSyeBkSrVvu8yXrUJMuLe3vBiR/view"
+              target="_blank"
+              ><button>Open</button></a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- ----certificates section ends here---- -->
+
+      <hr />
+
+      <!-- ----project section starts here---- -->
+      <section id="projectSection" class="animate">
+        <h2>Projects</h2>
+        <div class="allProjects">
+          <div class="projectCards pcard1">
+            <img src="./images/project-1.jpg" alt="e-commerce Img" />
+            <div class="projectIcon EcomIcon">
+              <h3>E-Commerce Website</h3>
+              <a
+                href="https://watch-ecommerce2-0-6962o72pm-naim-haiders-projects.vercel.app/"
+                ><i class="fa-solid fa-globe"></i
+              ></a>
+              <a href="https://github.com/naim-haider/watch-ecommerce2.0">
+                <i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <p>
+              A fully functional e-commerce website with features like product
+              listing, shopping cart, and user authentication.
+            </p>
+            <p class="tech">
+              <span>HTML</span><span>CSS</span><span>React</span
+              ><span>Node.js</span><span>MongoDB</span>
+            </p>
+          </div>
+          <div class="projectCards pcard4">
+            <img src="./images/project-2.jpg" alt="note img" />
+            <div class="projectIcon noteIcon">
+              <h3>Note App</h3>
+              <a href="https://note-app-with-authentication.vercel.app/"
+                ><i class="fa-solid fa-globe"></i
+              ></a>
+              <a href="https://github.com/naim-haider/NoteAppWithAuthentication"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <p>
+              Developed a note-taking app and implemented CRUD operations for
+              creating, editing, and deleting notes.
+            </p>
+            <p class="tech">
+              <span>Next.js (frontend)</span><span>MongoDB (backend)</span>
+            </p>
+          </div>
+          <div class="projectCards pcard5">
+            <img src="./images/project-3.png" alt="weather img" />
+            <div class="projectIcon weatherIcon">
+              <h3>Weather App</h3>
+              <a href="https://weather-app-gamma-lake.vercel.app/"
+                ><i class="fa-solid fa-globe"></i
+              ></a>
+              <a href="https://github.com/naim-haider/Weather-App"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <p>
+              A Next.js weather app with efficient SSR data fetching, a modern
+              Material-UI interface, and responsive design for real-time updates
+              across all devices.
+            </p>
+            <p class="tech"><span>Next.js</span><span>Material-UI</span></p>
+          </div>
+          <div class="projectCards pcard6">
+            <img src="./images/project-4.jpg" alt="portfolio img" />
+            <div class="projectIcon portfIcon">
+              <h3>Portfolio Website</h3>
+              <a href=""><i class="fa-solid fa-globe"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>
+              A personal portfolio website showcasing projects, skills, and
+              contact information.
+            </p>
+            <p class="tech">
+              <span>HTML</span><span>CSS</span><span>React</span
+              ><span>TailwindCSS</span>
+            </p>
+          </div>
+          <div class="projectCards pcard1">
+            <img src="./images/project-1.jpg" alt="e-commerce Img" />
+            <div class="projectIcon EcomIcon">
+              <h3>E-Commerce Website</h3>
+              <a
+                href="https://watch-ecommerce2-0-6962o72pm-naim-haiders-projects.vercel.app/"
+                ><i class="fa-solid fa-globe"></i
+              ></a>
+              <a href="https://github.com/naim-haider/watch-ecommerce2.0">
+                <i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <p>
+              A fully functional e-commerce website with features like product
+              listing, shopping cart, and user authentication.
+            </p>
+            <p class="tech">
+              <span>HTML</span><span>CSS</span><span>React</span
+              ><span>Node.js</span><span>MongoDB</span>
+            </p>
+          </div>
+          <div class="projectCards pcard4">
+            <img src="./images/project-2.jpg" alt="note img" />
+            <div class="projectIcon noteIcon">
+              <h3>Note App</h3>
+              <a href="https://note-app-with-authentication.vercel.app/"
+                ><i class="fa-solid fa-globe"></i
+              ></a>
+              <a href="https://github.com/naim-haider/NoteAppWithAuthentication"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <p>
+              Developed a note-taking app and implemented CRUD operations for
+              creating, editing, and deleting notes.
+            </p>
+            <p class="tech">
+              <span>Next.js (frontend)</span><span>MongoDB (backend)</span>
+            </p>
+          </div>
+          <div class="projectCards pcard5">
+            <img src="./images/project-3.png" alt="weather img" />
+            <div class="projectIcon weatherIcon">
+              <h3>Weather App</h3>
+              <a href="https://weather-app-gamma-lake.vercel.app/"
+                ><i class="fa-solid fa-globe"></i
+              ></a>
+              <a href="https://github.com/naim-haider/Weather-App"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <p>
+              A Next.js weather app with efficient SSR data fetching, a modern
+              Material-UI interface, and responsive design for real-time updates
+              across all devices.
+            </p>
+            <p class="tech"><span>Next.js</span><span>Material-UI</span></p>
+          </div>
+          <div class="projectCards pcard6">
+            <img src="./images/project-4.jpg" alt="portfolio img" />
+            <div class="projectIcon portfIcon">
+              <h3>Portfolio Website</h3>
+              <a href=""><i class="fa-solid fa-globe"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>
+              A personal portfolio website showcasing projects, skills, and
+              contact information.
+            </p>
+            <p class="tech">
+              <span>HTML</span><span>CSS</span><span>React</span
+              ><span>TailwindCSS</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- ----project section ends here---- -->
+
+      <hr />
+
+      <!-- ----contact section starts here---- -->
+      <section id="contactSection" class="animate">
+        <h2>Contact<span>Me</span></h2>
+        <div class="form">
+          <form action="">
+            <div class="contactlogo">
+              <img class="logo" src="./images/logo.png" alt="logo" />
+              <img class="Llogo" src="./images/lightlogo1.png" alt="logo" />
+            </div>
+            <div class="firstrow">
+              <div class="r1">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" />
+              </div>
+              <div class="r2">
+                <label class="lnamelabel" for="lastName">Last Name:</label>
+                <input class="lnameinput" type="text" id="lastName" />
+              </div>
+            </div>
+            <div class="secondrow">
+              <div class="r3">
+                <label for="email">Email:</label>
+                <input type="email" id="email" />
+              </div>
+              <div class="r4">
+                <label class="phonelabel" for="phone">Phone no.:</label>
+                <input class="phoneinput" type="number" id="phone" />
+              </div>
+            </div>
+            <div class="thirdrow">
+              <label for="query">Your Query</label>
+              <textarea id="query"></textarea>
+            </div>
+            <button>Send Message</button>
+          </form>
+        </div>
+      </section>
+      <!-- ----contact section ends here---- -->
+      <hr />
+    </div>
+    <!-- ----Rest sections ends here---- -->
+
+    <!-- ----footer section starts here---- -->
+    <footer id="footerSection">
+      <div class="firstRow">
+        <div class="firstCol">
+          <div class="footerLogosection">
+            <img class="logo" src="./images/logo.png" alt="footerlogo" />
+            <img class="Llogo" src="./images/lightlogo1.png" alt="logo" />
+            <h2>Naim<span>Haider</span></h2>
+          </div>
+          <div class="footerContent">
+            <p>
+              Full-stack developer with a passion for building responsive and
+              scalable web applications. Skilled in both front-end and back-end
+              technologies, delivering seamless user experiences and robust
+              functionality.
+            </p>
+          </div>
+          <div class="footericons">
+            <a
+              href="https://www.linkedin.com/in/naim-haider-6825ba248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com/naim.haider.779?mibextid=ZbWKwL">
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/naim.haider.779?igsh=OGQ5ZDc2ODk2ZA=="
+            >
+              <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="https://x.com/Naim23778831">
+              <i class="fa-brands fa-square-x-twitter"></i>
+            </a>
+            <a href="mailto:naimhaider76@gmail.com">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+            <a href="tel:7980754229">
+              <i class="fa fa-phone-square" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="secondCol">
+          <h3>Product</h3>
+          <ul>
+            <li>Theme Design</li>
+            <li>Wordpress</li>
+            <li>HTML Template</li>
+            <li>Website Design</li>
+            <li>Plugin Design</li>
+          </ul>
+        </div>
+        <div class="thirdCol">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#aboutme">AboutMe</a></li>
+            <li><a href="#skillSection">MySkills</a></li>
+            <li><a href="#certsSection">Certificates</a></li>
+            <li><a href="#projectSection">Projects</a></li>
+            <li><a href="#contactSection">ContactMe</a></li>
+          </ul>
+        </div>
+        <div class="fourthCol">
+          <h3>Address</h3>
+          <p>3/3, G.C.R.C. ghat road shibpur howrah-711102</p>
+        </div>
+      </div>
+      <div class="secondRow">
+        <p>All rights reserve by &copy;naimhaider 2024</p>
+      </div>
+    </footer>
+    <!-- ----footer section ends here---- -->
+  </body>
+</html>
